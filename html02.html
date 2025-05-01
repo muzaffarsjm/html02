@@ -38,6 +38,44 @@
         cursor: pointer;
         font-size: 15px;
       }
+
+      .second-task{
+        margin-top: 50px;
+      }
+
+      .amazon-link{
+        color: blue;
+        font-size: 18px;
+      }
+
+      .product-name{
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .product-price{
+        font-size: 19px;
+        font-weight: bold;
+        color: rgb(86, 222, 13);
+      }
+      .delivery-time{
+        font-size: 18px;
+      }
+      .add-to-cart{
+        background-color: rgb(255, 216, 20);
+        font-size: 14px;
+        border: none;
+        height: 30px;
+        padding: 3px 12px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      .buy-now{
+        background-color: rgb(255, 164, 28);
+        height: 30px;
+        border: none;
+        padding: 3px 12px;
+        border-radius: 15px;
+      }
     </style>
   </head>
   <body>
@@ -45,13 +83,15 @@
     <button class="join-button">Join</button>
     <button class="tweet-button">Tweet</button>
 
-    <a href="https://www.amazon.com/" 
-    class="amazon-link">Back to Amazon</a>
+    <div class="second-task">
+      <a href="https://www.amazon.com/" 
+      class="amazon-link">Back to Amazon</a>
 
-    <p class="product-name">Nike Black Running Shoes</p>
-    <p class="product-cost">$39 - in stock</p>
-    <p class="delivery-time">Free delivery tomorrow</p>
-    <button>Add to Cart</button>
-    <button>Buy now</button>
+      <p class="product-name">Nike Black Running Shoes</p>
+      <p class="product-price">$39 - in stock</p>
+      <p class="delivery-time">Free delivery tomorrow</p>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy now</button>
+    </div>
   </body>
 </html>
